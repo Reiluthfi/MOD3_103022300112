@@ -11,64 +11,79 @@ namespace MOD3_103022300112
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int a = 1;
+            string a = textBox1.Text;
+            textBox1.Text = a + "1";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int b = 2;
+            string b = textBox1.Text;
+            textBox1.Text = b + "2";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int c = 3;
+            string c = textBox1.Text;
+            textBox1.Text = c + "3";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int d = 4;
+            string d = textBox1.Text;
+            textBox1.Text = d + "4";
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            int j = 5;
+            string j = textBox1.Text;
+            textBox1.Text = j + "5";
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            int f = 6;
+            string f = textBox1.Text;
+            textBox1.Text = f + "6";
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            int g = 7;
+            string g = textBox1.Text;
+            textBox1.Text = g + "7";
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            int h = 8;
+            string h = textBox1.Text;
+            textBox1.Text = h + "8";
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            int i = 9;
+            string i = textBox1.Text;
+            textBox1.Text = i + "9";
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            int j = 0;
+            string j = textBox1.Text;
+            textBox1.Text = j + "0";
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
+            string s = textBox1.Text ;
+            textBox1.Text = s + "+";
+            int l = int.Parse(textBox1.Text);
+            textBox1.Text = "";
+            int m = int.Parse(textBox1.Text);
+            textBox1.Text = "";
 
-            
-            
         }
-        private void button12_Click(object sender, EventArgs e)
+        private void button12_Click(object sender, EventArgs e,int l,int m)
         {
+            int p =  l + m;
+            textBox1.Text = p.ToString();
 
-            
         }
     }
 }
